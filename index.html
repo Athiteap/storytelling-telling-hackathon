@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <title>Trust Passport</title>
+  <meta name="description" content="ISUZU 70 Trust Passport (ส่งต่อความไว้ใจ) — iPhone prototype for the my-ISUZU app">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Trust Passport">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Itim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stage">
+    <aside class="stage-notes" aria-hidden="true">
+      <div class="brandmark">ISUZU</div>
+      <h1>ส่งต่อความไว้ใจ<br><span>ISUZU 70 Trust Passport</span></h1>
+      <p>Prototype ฟีเจอร์ใหม่ใน my-ISUZU สำหรับ Tri Petch Group Awakens Your Challenge 2026 · After-Sales Service</p>
+      <p class="muted">เปิดบน iPhone: Safari → แชร์ → “เพิ่มไปยังหน้าจอโฮม” เพื่อใช้แบบเต็มจอ<br>ข้อมูล ชื่อ ราคา และตัวเลขทั้งหมดเป็นตัวอย่าง</p>
+      <ol class="flow">
+        <li><a href="#/home">หน้าหลัก my-ISUZU</a></li>
+        <li><a href="#/passport">Trust Passport</a></li>
+        <li><a href="#/book">จองตรวจ 70 จุดฟรี</a></li>
+        <li><a href="#/result">ผลตรวจ + ตราประทับ</a></li>
+        <li><a href="#/transfer">ส่งต่อความไว้ใจ (QR)</a></li>
+        <li><a href="#/scan">สแกนก่อนซื้อ</a></li>
+        <li><a href="#/handover">ส่งกุญแจ ส่งความไว้ใจ</a></li>
+        <li><a href="#/million">Million-km Moment</a></li>
+        <li><a href="#/odometer">Trust Odometer</a></li>
+      </ol>
+    </aside>
+    <div class="device">
+      <div class="device-statusbar" aria-hidden="true">
+        <span>9:41</span>
+        <span class="sb-icons"><i></i><i></i><i></i></span>
+      </div>
+      <div id="app" class="app"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
